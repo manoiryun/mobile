@@ -1,0 +1,113 @@
+*{
+	margin:0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+html, body{
+	width:100%;
+	height:100%;
+	font-size: 0.32rem;
+	background: #818D9B;
+}
+.wrap{
+	width:100%;
+	height:100%;
+	display: flex;
+	flex-direction: column;
+}
+.header{
+	width:100%;
+	height:0.9rem;
+	padding-right: 5%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #181616;
+	color:#fff;
+	flex-shrink: 0;
+}
+.header .header-left span{
+	border-right: 1px solid #ccc;
+	padding:0 0.2rem;
+}
+.header .header-left span:nth-child(2){
+	border-right: none;
+}
+.section{
+	width:100%;
+	padding:3%;
+	flex-grow: 1;	
+}
+.mark{
+	width:100%;
+	height:10rem;
+	padding: 0 5%;
+	margin-top: 1.0rem;
+	border-radius: 0.5rem;
+	background: #fff;
+}
+.mark dl{
+	padding:0.5rem 0;
+	width:100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.mark dl dt{
+	width:3rem;
+	height:1rem;
+	margin-bottom: 0.3rem;
+}
+.mark dl dt img{
+	width:100%;
+	height:100%;
+}
+.mark dl dd{
+	font-size: 0.36rem;
+	color:#ccc;
+}
+.input{
+	border-bottom: 0.04rem solid #ccc;
+	width:100%;
+	height:0.8rem;
+	padding:0 0.5rem;
+}
+.input input{
+	width:100%;
+	height:100%;
+	border:none;
+	float: left;
+}
+.input {
+	width:100%;
+	height:1rem;
+	display: flex;
+	margin-top: 0.5rem;
+}
+.input p{
+	width:10%;
+	height:100%;
+}
+.input input{
+	margin-left: 0.5rem;
+}
+.input span img{
+	width:100%;
+	height:100%;
+	
+}
+.button{
+	display: block;
+	width:100%;
+	height:1rem;
+	border-radius: 0.2rem;
+	background: #2FBA77;
+	color:#fff;
+	line-height: 1rem;
+	text-align: center;
+	font-size: 0.4rem;
+	margin-top: 0.5rem;
+}
